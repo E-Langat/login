@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Create an account</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -18,13 +18,13 @@
     <section id="section-2">
         <form>
             <div class="header">
-                <h2>Member Login</h2>
+                <h2>Create a new Account</h2>
             </div>
 
             <div class="login">
                 <div id="border-p">
                     <img src="images/mail.png" alt="Email" />
-                    <input type="text" placeholder="Email" />
+                    <input type="email" placeholder="Email" />
                 </div>
             </div>
 
@@ -35,23 +35,22 @@
                     <input type="password" placeholder="Password" />
                 </div>
             </div>
+            <div class="password">
+                <div id="border-p">
+                    <img src="images/padlock.png" alt="Password" />
+
+                    <input type="password" placeholder="Confirm Password" />
+                </div>
+            </div>
             <div class="submit">
-                <button type="submit">Login</button>
+                <button type="submit">Sign Up</button>
             </div>
-            <div class="forget-p">
-                <p>
-                    <span>Forgot</span>
-                    <span>
-              <a href="./forget_password.html">Username/Password?</a>
-            </span>
-                </p>
-            </div>
+
             <div class="new">
-                <h2>Don't Have an account?</h2>
-                <a href="./create_account.html">Create your account &#8594;</a>
+                <h2>Have an existing account?</h2>
+                <a href="./login.html">Login &#8594;</a>
             </div>
         </form>
-    </section>
 </body>
 
 </html>
